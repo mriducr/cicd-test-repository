@@ -1,1 +1,14 @@
 #Project Configuration
+
+---
+general:
+  cpiApiServiceKeyCredentialsId: "servicecredential"
+  integrationFlowId: "Create_file_in_Github"
+stages:
+  Upload:
+    enabled: false
+  Deploy:
+    enabled: true
+  Integration Test:
+    enabled: false
+
